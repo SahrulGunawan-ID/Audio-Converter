@@ -6,3 +6,11 @@ Audio Convert FFMPEG &amp; PHP SERVER
 ````
 apt install php ffmpeg
 ````
+# Notes !!!
+You Also Need to Set php.ini
+````
+upload_max_filesize = 100M
+post_max_size = 100M
+max_execution_time = 300
+memory_limit = 256M
+````
